@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center; }
+
+h1 {
+  padding: 20px 0; }
+
+.page-wrap {
+  max-width: 939px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+/* THE GRID */
+.col1 {
+  display: inline-block;
+  width: 8.333%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.col2 {
+  display: inline-block;
+  width: 16.667%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.col3 {
+  display: inline-block;
+  width: 25%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.col4 {
+  display: inline-block;
+  width: 33.333%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.col5 {
+  display: inline-block;
+  width: 41.667%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.col6 {
+  display: inline-block;
+  width: 50%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.col7 {
+  display: inline-block;
+  width: 58.333%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.col8 {
+  display: inline-block;
+  width: 66.667%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.col9 {
+  display: inline-block;
+  width: 75%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.col10 {
+  display: inline-block;
+  width: 83.333%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.col11 {
+  display: inline-block;
+  width: 91.667%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.col12 {
+  display: inline-block;
+  width: 100%;
+  padding: 0 2%;
+  border-right: 10px solid #666;
+  border-left: 10px solid #333;
+  margin-right: -4px;
+  height: 40px; }
+
+.row {
+  overflow: hidden;
+  background: rgba(255, 0, 0, 0.2);
+  margin: 0 0 20px; }

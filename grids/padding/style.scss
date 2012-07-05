@@ -1,0 +1,63 @@
+*
+{
+	margin:0; padding: 0;
+}
+
+
+body
+{
+	font-family:Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+h1
+{	
+	padding:20px 0;
+}
+
+.page-wrap
+{
+	max-width:939px;
+	margin: 0 auto;
+	padding:0 20px;
+}
+
+
+
+/* THE GRID */
+$padding : 1.5;
+$num_cols : 12;
+
+@for $i from 1 through $num_cols
+{
+    .col#{$i}
+    {
+        width: percentage(((100*$i)/$num_cols)-$padding*2)/100;
+        padding: 0 percentage($padding)/100;
+        float:left;
+    }
+
+}
+
+.row
+{
+	overflow: hidden;
+	background: rgba(255,0,0,0.2);
+	margin: 0 0 20px;
+}
+
+
+/* helpers */
+@for $i from 1 through $num_cols
+{
+       
+     .col#{$i}:before, .col#{$i}:after
+    {
+        height: 10px;
+        content: '';
+        display: block;
+        background: rgba(0,0,0,0.2);
+    }
+
+}
+

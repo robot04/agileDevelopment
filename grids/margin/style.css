@@ -1,0 +1,59 @@
+* { margin: 0; padding: 0; }
+
+body { font-family: Helvetica, Arial, sans-serif; text-align: center; }
+
+h1 { padding: 20px 0; }
+
+.page-wrap { max-width: 939px; margin: 0 auto; padding: 0 20px; }
+
+/* THE GRID */
+.col1 { width: 5.333%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.col2 { width: 13.667%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.col3 { width: 22%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.col4 { width: 30.333%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.col5 { width: 38.667%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.col6 { width: 47%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.col7 { width: 55.333%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.col8 { width: 63.667%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.col9 { width: 72%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.col10 { width: 80.333%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.col11 { width: 88.667%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.col12 { width: 97%; margin: 0 1.5%; float: left; background: rgba(255, 255, 255, 0.5); }
+
+.row { overflow: hidden; background: rgba(255, 0, 0, 0.2); margin: 0 0 20px; }
+
+/* helpers */
+.col1:before, .col1:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
+
+.col2:before, .col2:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
+
+.col3:before, .col3:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
+
+.col4:before, .col4:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
+
+.col5:before, .col5:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
+
+.col6:before, .col6:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
+
+.col7:before, .col7:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
+
+.col8:before, .col8:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
+
+.col9:before, .col9:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
+
+.col10:before, .col10:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
+
+.col11:before, .col11:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
+
+.col12:before, .col12:after { height: 10px; content: ''; display: block; background: rgba(0, 0, 0, 0.2); }
