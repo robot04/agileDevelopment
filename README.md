@@ -2,7 +2,7 @@
 
 ###Repositorio de recursos para desarrollo web ágil.
 
-Estructuradas en carpetas, nos encontraremos los recursos necesarios para desarrollar páginas web de una manera más productiva y ágil.
+Conjunto de utilidades CSS, HTML y JS (incluyendo jQuery) para desarrollar páginas web de una manera más productiva y ágil.
 
 
 
